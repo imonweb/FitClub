@@ -20,11 +20,7 @@
   color: #fff;
 }
 
-.header-menu > li {
-  cursor: pointer;
-}
-
-.header-menu > a:hover {
+.header-menu a:hover {
   color: var(--orange);
-
+  cursor: pointer;
 }
