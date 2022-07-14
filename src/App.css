@@ -28,3 +28,37 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
 }
+
+.btn {
+  background-color: #fff;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+}
+
+.hero-buttons>:nth-child(1) {
+  color: #fff;
+  background-color: var(--orange);
+  width: 8rem;
+}
+
+.hero-buttons>:nth-child(2) {
+  color: #fff;
+  background-color: transparent;
+  width: 8rem;
+  border: 2px solid var(--orange);
+}
